@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove43tb}
 layers:
   default:
-  - {t: Q, h: ESCAPE}
+  - Q
   - W
   - E
   - R
@@ -40,7 +40,7 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - {t: '&to_layer_0 LC(SPACE)', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
@@ -299,10 +299,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -320,12 +320,20 @@ combos:
 - p: [31, 32]
   k: .
 - p: [32, 33]
-  k: '?'
-- p: [19, 20]
-  k: ''''
+  k: /
 - p: [20, 21]
-  k: '"'
-- p: [17, 18]
+  k: ''''
+- p: [19, 20]
   k: ;
-- p: [18, 19]
-  k: ':'
+- p: [0, 1]
+  k: ESCAPE
+- p: [6, 7]
+  k: '['
+- p: [7, 8]
+  k: ']'
+- p: [8, 9]
+  k: \
+- p: [1, 2]
+  k: '`'
+- p: [34, 35, 36, 37]
+  k: {t: '&to_layer_0 K_CMENU', h: '6'}
