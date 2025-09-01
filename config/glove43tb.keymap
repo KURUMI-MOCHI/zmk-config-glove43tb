@@ -56,29 +56,49 @@
             key-positions = <31 32>;
         };
 
-        quastion {
-            bindings = <&kp QUESTION>;
+        slash {
+            bindings = <&kp SLASH>;
             key-positions = <32 33>;
         };
 
         quotation {
             bindings = <&kp SQT>;
-            key-positions = <19 20>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
 
         semi_colon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <17 18>;
+            key-positions = <19 20>;
         };
 
-        colon {
-            bindings = <&kp COLON>;
-            key-positions = <18 19>;
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        left_blacked {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <6 7>;
+        };
+
+        right_blacked {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        back_slash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <8 9>;
+        };
+
+        back_quote {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 2>;
+        };
+
+        layer6 {
+            bindings = <&lt_to_layer_0 6 K_CMENU>;
+            key-positions = <34 35 36 37>;
         };
     };
 
@@ -115,10 +135,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q    &kp W             &kp E         &kp R         &kp T                                                          &kp Y        &kp U  &lt 5 I   &kp O                 &kp P
-&kp A           &kp S             &kp D         &kp F         &kp G        &kp LS(LG(S))                      &kp COMMA      &kp H        &kp J  &kp K     &kp L                 &kp MINUS
-&kp Z           &kp X             &kp C         &kp V         &kp B        &kp SLASH                          &kp PERIOD     &kp N        &kp M  &mkp MB1  &lt_to_layer_0 5 F24  &mkp MB2
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                         &kp DEL
+&kp Q           &kp W             &kp E         &kp R         &kp T                                                       &kp Y        &kp U  &lt 5 I   &kp O                 &kp P
+&kp A           &kp S             &kp D         &kp F         &kp G        &kp LS(LG(S))                   &kp COMMA      &kp H        &kp J  &kp K     &kp L                 &kp MINUS
+&kp Z           &kp X             &kp C         &kp V         &kp B        &kp SLASH                       &kp PERIOD     &kp N        &kp M  &mkp MB1  &lt_to_layer_0 5 F24  &mkp MB2
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 LC(SPACE)      &kp BACKSPACE  &lt 1 ENTER                                         &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
