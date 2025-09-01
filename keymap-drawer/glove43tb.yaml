@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - /
   - ;
   - ''''
   - '['
@@ -87,23 +87,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - /
+  - {t: ▽, type: trans}
   NUM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - /
   - KP 7
   - KP 8
   - KP 9
   - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - KP 7
+  - KP 8
+  - KP 9
+  - '-'
+  - '*'
+  - KP 4
+  - KP 5
+  - KP 6
+  - +
   - {t: ▽, type: trans}
   - KP NUMLOCK
   - '*'
@@ -111,12 +111,12 @@ layers:
   - KP 5
   - KP 6
   - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - .
+  - '='
   - {t: ▽, type: trans}
   - KP 0
   - KP 1
@@ -134,15 +134,15 @@ layers:
   - '='
   ARROW:
   - ESCAPE
-  - Ctl+Sft+TAB
+  - PAGE UP
   - UP ARROW
-  - Ctl+TAB
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
+  - UP ARROW
+  - PAGE DOWN
+  - DEL
   - HOME
   - LEFT ARROW
   - DOWN ARROW
@@ -150,15 +150,15 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HOME
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYMBOL:
+  MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,13 +309,23 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 12]
+- p: [10, 11]
   k: TAB
-- p: [12, 13]
+- p: [12, 11]
   k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
+- p: [11, 10, 12, 13]
+  k: '&to_layer_0 CAPSLOCK'
+- p: [30, 31]
+  k: ','
+- p: [31, 32]
+  k: .
+- p: [32, 33]
+  k: '?'
+- p: [19, 20]
+  k: ''''
 - p: [20, 21]
   k: '"'
-- p: [24, 25]
-  k: '='
+- p: [17, 18]
+  k: ;
+- p: [18, 19]
+  k: ':'
