@@ -133,6 +133,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "MY_HOLD_TAP";
             bindings = <&mo>, <&mkp>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "balanced";
@@ -144,10 +145,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W             &kp E         &kp R         &kp T                                                       &kp Y        &kp U  &lt 5 I   &kp O                 &kp P
-&kp A           &kp S             &kp D         &kp F         &kp G        &kp LS(LG(S))                   &kp COMMA      &kp H        &kp J  &kp K     &kp L                 &kp MINUS
-&kp Z           &kp X             &kp C         &kp V         &kp B        &kp SLASH                       &kp PERIOD     &kp N        &kp M  &mkp MB1  &lt_to_layer_0 5 F24  &mkp MB2
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 LC(SPACE)      &kp BACKSPACE  &lt 1 ENTER                                         &kp DEL
+&kp Q           &kp W             &kp E         &kp R         &kp T                                                   &kp Y        &kp U  &lt 5 I   &kp O         &kp P
+&kp A           &kp S             &kp D         &kp F         &kp G        &kp LS(LG(S))               &kp COMMA      &kp H        &kp J  &kp K     &kp L         &kp MINUS
+&kp Z           &kp X             &kp C         &kp V         &kp B        &kp SLASH                   &kp PERIOD     &kp N        &kp M  &mkp MB1  &my_ht 5 MB3  &mkp MB2
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 SPACE      &kp BACKSPACE  &lt 1 ENTER                                 &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
