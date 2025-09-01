@@ -33,14 +33,14 @@ layers:
   - N
   - M
   - '&mkp MB1'
-  - {t: '&to_layer_0 F24', h: SCROLL}
+  - {t: '&mkp MB3', h: SCROLL}
   - '&mkp MB2'
   - LEFT SHIFT
   - LEFT CONTROL
   - LEFT WIN
   - LEFT ALT
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 LC(SPACE)', h: ARROW}
+  - {t: '&to_layer_0 SPACE', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL

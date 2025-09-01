@@ -264,7 +264,7 @@ path.combo {
 <g transform="translate(673, 154)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">F24</tspan>
+<tspan x="0" dy="-1.2em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB3</tspan>
 </text>
 <a href="#SCROLL">
 <text x="0" y="24" class="key hold layer-activator">SCROLL</text>
@@ -308,7 +308,7 @@ path.combo {
 <g transform="translate(333, 247) rotate(20.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">LC(</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">SPACE)</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 64%">&amp;to_layer_0</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">SPACE</tspan>
 </text>
 <a href="#ARROW">
 <text x="0" y="24" class="key hold layer-activator">ARROW</text>
