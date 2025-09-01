@@ -128,6 +128,15 @@
 
             tap-ms = <20>;
         };
+
+        my_ht: my_ht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MY_HOLD_TAP";
+            bindings = <&mo>, <&kp>;
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "balanced";
+        };
     };
 
     keymap {
